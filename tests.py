@@ -1,7 +1,7 @@
 import unittest
 import web
 
-class FlaskrTestCase(unittest.Testcase):
+class FlaskrTestCase(unittest.TestCase):
   def setUp (self):
     self.app = web.app.test_client()
     
